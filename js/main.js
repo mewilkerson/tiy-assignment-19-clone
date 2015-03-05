@@ -1,5 +1,13 @@
 var Employee = Backbone.Model.extend({
-  url:"js/data.json"
+  // url:"js/data.json"
+});
+
+var EmployeesCollection = Backbone.Collection.extend({
+
+  url: "js/data.json",
+
+  model: Employee
+
 });
 
 
@@ -16,7 +24,7 @@ var GridView = (function(){
     // listening for when the model is changed and re-rendering it
     this.listenTo(this.model, "change", function(){
       this.render();
-    })
+    });
   }
 
   GridView.prototype = {
@@ -31,23 +39,23 @@ var GridView = (function(){
 
 
 $(function(){
-  
-  // calling with ajax, and iterating over each:
-  $.ajax("js/data.json").done(function(data){
 
+  var employees = new EmployeesCollection();
 
-    _.each(data, function(datum){
-                         // passing it some initial data (datum)
-      var contactModel = new Employee(datum);
+  employees.on("add", function(model){
+    var gridView = new GridView(model);
+    $("tbody").append(gridView.render());
+  }); 
 
-      var contactView = new GridView(contactModel);
+  employees.fetch().done(function(){
 
-      $(".employees").append(contactView.render());
-
-    });
-
-  }).fail(function(){
-    console.log("ajax failed", arguments);
+    var firstEmployeePattern = employees.first();
+      var headings = firstEmployeePattern.keys();
+      
+      _.each(headings, function(data) {
+         $("thead tr").append($("<th />").text(data));
+      });
   });
+
 
 });

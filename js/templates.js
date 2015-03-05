@@ -17,3 +17,7 @@ this["JST"]["employee"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],
     + escapeExpression(((helper = (helper = helpers.Dept || (depth0 != null ? depth0.Dept : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"Dept","hash":{},"data":data}) : helper)))
     + "</td>";
 },"useData":true});
+this["JST"] = this["JST"] || {};
+this["JST"]["keys"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
+  return "";
+},"useData":true});
