@@ -1,5 +1,5 @@
 {
-  "name": "tiy-assignment-19-clone",
+  "name": "tiy-assignment-21",
   "version": "0.0.0",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "gulp": "^3.8.11",
     "gulp-concat": "^2.5.2",
     "gulp-declare": "^0.3.0",
-    "gulp-handlebars": "^3.0.1",
+    "gulp-handlebars": "^4.0.0",
     "gulp-less": "^3.0.1",
     "gulp-wrap": "^0.11.0",
     "main-bower-files": "^2.5.0",
@@ -19,10 +19,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mewilkerson/tiy-assignment-19-clone.git"
+    "url": "https://github.com/mewilkerson/tiy-assignment-21.git"
   },
   "bugs": {
-    "url": "https://github.com/mewilkerson/tiy-assignment-19-clone/issues"
+    "url": "https://github.com/mewilkerson/tiy-assignment-21/issues"
   },
-  "homepage": "https://github.com/mewilkerson/tiy-assignment-19-clone"
+  "homepage": "https://github.com/mewilkerson/tiy-assignment-21"
 }

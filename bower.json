@@ -1,5 +1,5 @@
 {
-  "name": "tiy-assignment-19-clone",
+  "name": "tiy-assignment-21",
   "version": "0.0.0",
   "authors": [
     "Matt Wilkerson <mattisonwilkerson@gmail.com>"
@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "mocha": "~2.1.0",
-    "chai": "~2.1.0"
+    "chai": "~2.1.1"
   },
-  "homepage": "https://github.com/mewilkerson/tiy-assignment-19-clone"
+  "homepage": "none"
 }
