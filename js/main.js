@@ -11,6 +11,20 @@ var EmployeesCollection = Backbone.Collection.extend({
 });
 
 
+// var GridView = Backbone.View.extend({
+
+//   template: JST["employee"],
+//   tagName: "tr",
+
+//   render: function() {
+//     var markup = this.template( this.model.toJSON() );
+//     this.$el.html(markup);
+    
+//     return this;
+//   }
+
+// });
+
 // VIEW - self-invoking function
 var GridView = (function(){
 

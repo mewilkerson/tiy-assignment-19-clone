@@ -4,76 +4,87 @@
 "Role": "Sales Assoc.",
 "Manager": "Martin Mindo",
 "Phone": "555.234.4455",
-"Dept": "Sales"
+"Dept": "Sales",
+"Start-date": "October 1 1990"
 },
 {
 "Name": "Tim Tanenbaum",
 "Role": "Sales Assoc.",
 "Manager": "Martin Mindo",
 "Phone": "555.234.3289",
-"Dept": "Sales"
+"Dept": "Sales",
+"Start-date": "October 2 1990"
 },
 {
 "Name": "Martin Mindo",
 "Role": "Sales Manager",
 "Manager": "Sarah Sagan",
 "Phone": "555.224.5623",
-"Dept": "Sales"
+"Dept": "Sales",
+"Start-date": "October 3 1990"
 },
 {
 "Name": "Sarah Sagan",
 "Role": "District Manager",
 "Manager": "Kevin Kagal",
 "Phone": "555.211.5645",
-"Dept": "Corp"
+"Dept": "Corp",
+"Start-date": "October 4 1990"
 },
 {
 "Name": "Kevin Kagal",
 "Role": "Regional Manager",
 "Manager": "Deborah Dacosta",
 "Phone": "555.504.2203",
-"Dept": "Corp"
+"Dept": "Corp",
+"Start-date": "October 5 1990"
 },
 {
 "Name": "Deborah Dacosta",
 "Role": "CSO",
 "Manager": "Zoey Zapata",
 "Phone": "555.388.0892",
-"Dept": "Exec Officers"
+"Dept": "Exec Officers",
+"Start-date": "October 6 1990"
 },
 {
 "Name": "Zoey Zapata",
 "Role": "CEO",
 "Manager": null,
 "Phone": "555.234.4455",
-"Dept": "Exec Officers"
+"Dept": "Exec Officers",
+"Start-date": "October 7 1990"
 },
 {
 "Name": "Frank Fixit",
 "Role": "IT Support",
 "Manager": "Jeremiah Jackson",
 "Phone": "555.222.5476",
-"Dept": "IT"
+"Dept": "IT",
+"Start-date": "October 8 1990"
 },
 {
 "Name": "Penelope Parker",
 "Role": "In House Developer",
 "Manager": "Jeremiah Jackson",
 "Phone": "555.884.4389",
-"Dept": "IT"
+"Dept": "IT",
+"Start-date": "October 9 1990"
 },
 {
 "Name": "Jeremiah Jackson",
 "Role": "IT Manager",
 "Manager": "Shannon Salazar",
 "Phone": "555.234.3876",
-"Dept": "IT"
+"Dept": "IT",
+"Start-date": "October 10 1990"
 },
 {
 "Name": "Shannon Salazar",
 "Role": "CTO",
 "Manager": "Zoey Zapata",
 "Phone": "555.334.8756",
-"Dept": "Exec Officers"
+"Dept": "Exec Officers",
+"Start-date": "October 11 1990"
 }
 ]
